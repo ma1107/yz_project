@@ -1,0 +1,59 @@
+/*@charset "utf-8";*/
+body,div,p,ul,ol,li,dl,dt,dd,form,table,tr,td,h1,h2,h3,h4,h5,h6,fieldset,input,textarea,figure{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size: 26.67vw;
+}
+html,body{
+	height:100%;
+}
+body{
+   font-family:"微软雅黑",Arial;
+   display: -webkit-flex;
+   -webkit-flex-direction:column;
+ }
+i{
+  font-style: normal;
+}
+a{
+	text-decoration:none;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border: none;
+	display: block;
+}
+input {
+	outline:none;
+	border: none;
+	display: block;
+}
+/*input 框背景黄色*/
+input:-webkit-autofill {
+	background-color: #FAFFBD;
+	background-image: none;
+	color: #000;
+}
+::-webkit-scrollbar {
+	width: 0px;
+	height: 0px;
+}
+/*去掉滚动条宽度*/
+  ::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.2);
+	border-radius: 0px;
+	background: #12fafd; }
+
+  ::-webkit-scrollbar-thumb {
+	border-radius: 0px;
+	-webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.2);
+	background: #12a7fd; }
+
+  ::-webkit-scrollbar-thumb:hover {
+	border-radius: 0px;
+	-webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.2);
+	background: #39fd70; }
