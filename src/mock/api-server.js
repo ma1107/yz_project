@@ -14,6 +14,7 @@ app.use("/api/purpose",(req,res)=>{
 });
 
 
-app.listen(3001,()=>{
-  console.log("api server is ready on port 3001")
+
+app.listen(3000,()=>{
+  console.log("api server is ready on port 3000")
 });

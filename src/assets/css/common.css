@@ -13,6 +13,7 @@ body{
    font-family:"微软雅黑",Arial;
    display: -webkit-flex;
    -webkit-flex-direction:column;
+  background:#f7f5f5;
  }
 i{
   font-style: normal;

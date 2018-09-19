@@ -5,14 +5,14 @@ import App from './App'
 import router from './router'
 import './assets/css/common.css'
 import './assets/css/iconfont.css'
-import YzPurpose from './pages/YzPurpose'
+import YzOrder from './pages/YzOrder'
 
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  render:c=>c(YzPurpose),
+  render:c=>c(YzOrder),
   router,
   components: { App },
   template: '<App/>'
